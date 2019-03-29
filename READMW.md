@@ -2,5 +2,6 @@ HTML-CSS
 
 
 Here you can find my homework hosted via Github :octocat:
-https://mkruijt.github.io/AbduCodecamp/hyf-html-css/week1/
+https://AbduCodecamp.github.io/hyf-html-css/week1/
       
+https://mkruijt.github.io/HTML-CSS/week1/
