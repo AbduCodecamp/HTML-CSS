@@ -222,6 +222,14 @@ h1 {
 font-size: 2em;
 }
 
+.img-container {
+    margin-top: 45vw;
+}
+.introduction-sec img {
+    width: 40vw;
+    left: 30%;
+}
+
 header {
     position: fixed;
 }
@@ -313,10 +321,6 @@ nav a:hover {
 
 nav a:hover::after {
     display: none;
-}
-
-.img-container {
-    margin-top: 45vw;
 }
 
 }
