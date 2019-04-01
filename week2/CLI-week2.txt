@@ -1,0 +1,48 @@
+
+Administrator@WIN-2JRGN10U0LK MSYS /usr/bin
+$ cd ~/class21cli/
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ touch .hiddenFile.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ mkdir -p ~/class21cli/these/folders/are/for/fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ ls -a
+./  ../  .hiddenFile.txt  fun  greetings.txt  longfile.txt  newfile.txt  these/
+
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ echo "test" > fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ echo "another test" >> fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ cat fun
+test
+another test
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ wc -c fun
+18 fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ echo -n "another test" >> fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ cat fun
+test
+another test
+another test
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ echo -e "another test" >> fun
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ cat fun
+test
+another test
+another testanother test
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
