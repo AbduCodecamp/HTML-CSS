@@ -85,9 +85,17 @@ li::-webkit-scrollbar-thumb:hover {
 }
 #grid-floats .grid-item  {
     width: 29.5%;
+    height: 55vh;
 }
 h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+.grid-item img {
+    width: 80%;
 }
 
     /* ==== FLEXBOX ====  */
@@ -98,14 +106,21 @@ h3 {
 @media (max-width:550px)  {
     /* ==== FLOATS ====  */
    
-    #grid-floats li:nth-child(1)  {
+    #grid-floats li:nth-child(1),
+    #grid-floats li:nth-child(14)  {
         width: 90%;
     }
-    #grid-floats li:nth-child(1) p {
+     
+    #grid-floats li:nth-child(1) p,
+    #grid-floats li:nth-child(14) p {
         float: left;
         width: 50%;
         padding-top: 4vh;
     }
+    #grid-floats li:nth-child(14) img {
+        width: 50%;
+    }
+
     #grid-floats li:nth-child(2)  {
         width: 44%;
     }
@@ -116,14 +131,14 @@ h3 {
         width: 44%;
         height: 40vh;
     }
-    #grid-floats .grid-item img {
+    .grid-item img {
         width: 80%;
     }
     h3 {
         font-size: 1rem;
     }
     p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
         /* ==== FLEXBOX ====  */
     }
