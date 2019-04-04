@@ -115,7 +115,7 @@ p {
     #grid-floats li:nth-child(14) p {
         float: left;
         width: 50%;
-        padding-top: 4vh;
+        padding-top: 2.5vh;
     }
     #grid-floats li:nth-child(14) img {
         width: 50%;
