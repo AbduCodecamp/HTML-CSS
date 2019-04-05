@@ -54,7 +54,6 @@ header:hover:before {
     background: url(./images/deadfly.png) center center no-repeat;
     background-size: 100%;
     transition-delay: 30ms;
-    /* z-index: 555; */
  }   
 
  h1 {
@@ -63,7 +62,6 @@ header:hover:before {
      margin: 10vh 0;
      padding: 0 auto;
      width: 100%;
-     border: 1px solid red;
  }
 
  h1::after {
