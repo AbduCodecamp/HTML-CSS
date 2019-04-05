@@ -62,8 +62,8 @@ li {
     transition: ease-in-out 500ms;
  }
  h1:hover:after {
-    transform: rotate(160deg);
-    transition: 1.2s;
+    transform: rotate(1600deg);
+    transition: 1.5s;
  }
 
  h3 {
