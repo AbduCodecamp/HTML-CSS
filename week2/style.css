@@ -47,13 +47,15 @@ li {
     position: absolute;
     top: 70px;
     left: 42vw;
-    transition: 1s;
+    transition: 0s;
+    z-index: -1;
  }
 
 header:hover:before {
     background: url(./images/deadfly.png) center center no-repeat;
     background-size: 100%;
-    transition-delay: 30ms;
+    transition:  0s;
+    transition-delay: 100ms;
  }   
 
  h1 {
@@ -184,8 +186,11 @@ li::-webkit-scrollbar-thumb:hover {
 
 /* ==============================  MEDIUM DISPLAY ==> */
 
-@media (max-width:961px) {
+@media (max-width:965px) {
 
+header::before {
+    left: 32vw;
+}
 /* ==== FLOATS ====  */
 
 #grid-floats li:nth-child(2) {
@@ -211,6 +216,10 @@ li::-webkit-scrollbar-thumb:hover {
 /* ==============================  NARROW DSPLAY ==> */
 
 @media (max-width:550px)  {
+
+    header::before {
+        left: 25vw;
+    }
 
 /* ==== FLOATS ====  */
    
