@@ -57,6 +57,14 @@ li {
      margin-top: -3px;
      transform: rotate(-20deg);
  }
+ h1:hover {
+    transform: rotate(360deg);
+    transition: ease-in-out 500ms;
+ }
+ h1:hover:after {
+    transform: rotate(160deg);
+    transition: 1.2s;
+ }
 
  h3 {
     font-size: 2rem;
