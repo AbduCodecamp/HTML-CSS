@@ -132,7 +132,7 @@ p {
    
 #grid-floats li:nth-child(1),
 #grid-floats li:nth-child(14) {
-    width: 90%;
+    width: 93.5%;
 }
     
 #grid-floats li:nth-child(1) p,
@@ -148,11 +148,11 @@ p {
 }
 
 #grid-floats li:nth-child(2) {
-    width: 44%;
+    width: 45.5%;
 }
 
 #grid-floats .grid-item {
-    width: 44%;
+    width: 45.5%;
     height: 40vh;
 }
 
