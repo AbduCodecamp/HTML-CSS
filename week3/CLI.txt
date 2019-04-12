@@ -1,0 +1,90 @@
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ mkdir week3
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli
+$ cd week3
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ touch blank
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ ls
+blank
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "Hello" >> greetings.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "Hello" >> greetings.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "Hello" >> greetings.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "Hello" >> greetings.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "Hello" >> greetings.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ tee <greetings.txt >1.txt 2.txt 3.txt 4.txt 5.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ cat 1.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "cat" >> pets.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "dog" >> pets.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "hamster" >> pets.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ cat pets.txt
+cat
+dog
+hamster
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "cat" >> commands.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "ls" >> commands.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ echo -e "pwd" >> commands.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ cat commands.txt
+cat
+ls
+pwd
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ comm -3 pets.txt commands.txt > lovelyCommands.txt
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$ cat lovelyCommands.txt
+dog
+hamster
+        ls
+        pwd
+
+Administrator@WIN-2JRGN10U0LK MSYS ~/class21cli/week3
+$
